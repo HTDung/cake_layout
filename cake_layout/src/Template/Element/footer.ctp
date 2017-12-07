@@ -1,0 +1,1 @@
+<div id="footer" style="text-align: center; background: #f97617;">© 2014 Banana Team</div>
