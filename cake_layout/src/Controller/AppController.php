@@ -44,6 +44,28 @@ class AppController extends Controller
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
 
+      //   $this->loadComponent('Auth', [
+      //   'authenticate' => [
+      //   'Form' => [
+      //        'userModel' => 'UserTbl',
+      //       'fields' => ['username' => 'username', 'password' => 'password'],
+           
+      //   ],
+      // ]
+      //   'loginRedirect' => [
+      //           'controller' => 'Users',
+      //           'action' => 'data1'
+      //       ],
+      //       'loginAction' => [
+      //           'controller' => 'Users',
+      //           'action' => 'authlogin'
+      //       ],
+      //       'logoutRedirect' => [
+      //           'controller' => 'Users',
+      //           'action' => 'authlogin'
+      //       ]
+    // ]);
+        
         /*
          * Enable the following components for recommended CakePHP security settings.
          * see https://book.cakephp.org/3.0/en/controllers/components/security.html
@@ -52,6 +74,9 @@ class AppController extends Controller
         //$this->loadComponent('Csrf');
     }
 
+    
+
+     
     /**
      * Before render callback.
      *

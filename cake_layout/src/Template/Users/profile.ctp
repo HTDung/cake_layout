@@ -3,7 +3,7 @@
 						
 
 			<div class="container-fluid">
-				<div class="panel-heading" style="margin-top: 50px;">
+				<!-- <div class="panel-heading" style="margin-top: 50px;">
 					<div id="hs" class="panel-title"><p style="text-align: center;">HỒ SƠ CÁ NHÂN</p></div>
 					
 					<div class="col-md-3" style="padding-left: 10px;">
@@ -38,16 +38,16 @@
 							</li>
 							Sông Lô, Vĩnh Phúc
 						</ul>
-					</div>
+					</div> -->
 					<div class="col-md-9" style="border: 1px solid aquamarine;">
 						<ul class="nav nav-tabs">
-					    <li class="active"><a data-toggle="tab" href="#infomation" style="background: whitesmoke;">Infomation</a></li>
+					    <!-- <li class="active"><a data-toggle="tab" href="#infomation" style="background: whitesmoke;">Infomation</a></li> -->
 					    <li><a data-toggle="tab" href="#changeinfomation" style="background: whitesmoke;">Change Infomation</a></li>
-					    <li><a data-toggle="tab" href="#changepassword" style="background: whitesmoke;">Change Password</a></li>
+					    <!-- <li><a data-toggle="tab" href="#changepassword" style="background: whitesmoke;">Change Password</a></li> -->
 					  </ul>
 					   <div class="tab-content">
 					   	
-					   		<div id="infomation" class="tab-pane fade in active">
+					   		<!-- <div id="infomation" class="tab-pane fade in active">
 								<div class="col-md-6">
 									 <h3>About me</h3>
 
@@ -98,7 +98,7 @@
 						     
 						    </div>
 					   	
-						    
+						     -->
 						    <div id="changeinfomation" class="tab-pane fade">
 						     <p><strong>Username:</strong></p>
 						      <input type="text" name="lname" disabled value="Ha Dung" style="text-align: center;    background: antiquewhite;"><br>
@@ -114,7 +114,7 @@
 						      <button type="button" class="btn btn-success" style="margin-bottom: 20px;">Cập nhật</button>
 						    </div>
 
-						    <div id="changepassword" class="tab-pane fade">
+						    <!-- <div id="changepassword" class="tab-pane fade">
 						    	 <div class="col-md-3" style="margin-top: 40px">
 						     	 	<label>Mật khẩu cũ</label>
 						    	 </div>
@@ -140,7 +140,7 @@
 						    	
 						      	<div class="col-md-12"> <button type="button" class="btn btn-success" style="margin-left: 40%;    margin-top: 30px;margin-bottom: 20px;" onclick="validate()">Lưu mật khẩu</button>
 						      	</div>
-						    </div>						   
+						    </div>			 -->			   
 						</div>
 					</div>
 					
